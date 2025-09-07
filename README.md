@@ -1,3 +1,3 @@
 # Quadractic function cryptography
-A very basic concept of cryptography I made to further sharpen my knowledges in the quadractic function and cryptography in general.
-nothing else
+A very basic concept of cryptography I made to further sharpen my knowledge in the quadratic function and cryptography in general.
+The script works by assigning ASCII values to an user's text, then applying a quadratic equation - of which coefficients are user's choice - to the ASCII values. The text can then be decrypted, by giving the encrypted text and the coefficients (keys.)
