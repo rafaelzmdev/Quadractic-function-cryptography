@@ -27,6 +27,3 @@ while True:
 encryptedascii = [a * x**2 + b * x + c for x in asciivalue]
 print(f"Your text is now encrypted. Save it. In order to decrypt, use the decrypting script. Write this down, together with your coefficients (keys). The second script will ask for both. Here is your text: {(encryptedascii)}")
 input("Press Enter to close the window...")
-
-
-

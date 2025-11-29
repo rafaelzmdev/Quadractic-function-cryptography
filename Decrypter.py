@@ -46,6 +46,8 @@ for y in processed_text:
 #converting into ASCII, final part of code.
 try:
     finaltext = ''.join(chr(number) for number in decrypted_values)
+    print("Your decrypted text is:")
     print(finaltext)
 except ValueError:
     print("Couldn't decrypt. Possibly a typo? Try again.")
+input("Press enter to close this window...")
